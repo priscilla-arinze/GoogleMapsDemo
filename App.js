@@ -22,8 +22,8 @@ export default class App extends Component {
         provider={PROVIDER_GOOGLE} // remove if not using Google Maps
         style={styles.map}
         region={{
-        latitude: 37.78825,
-        longitude: -122.4324,
+        latitude: 32.9857619,
+        longitude: -96.7500993,
         latitudeDelta: 0.015,
         longitudeDelta: 0.0121,
         }}
