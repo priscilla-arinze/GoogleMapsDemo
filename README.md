@@ -1,6 +1,9 @@
 # GoogleMapsDemo
 Google Maps Demo App for Android using the React Native module, react-native-maps
 
+## Preview
+<img src="https://github.com/glowfessorkingslayer/GoogleMapsDemo/blob/master/img/preview1.jpg" width="45%"/> <img src="https://github.com/glowfessorkingslayer/GoogleMapsDemo/blob/master/img/preview2.jpg" width="45%"/>
+
 ## My Environment Details
 * Computer OS: Windows 10
 * Mobile Device OS: Android (only)
