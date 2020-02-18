@@ -1,13 +1,13 @@
 # GoogleMapsDemo
-Google Maps Demo for Android using the React Native module, react-native-maps
+Google Maps Demo App for Android using the React Native module, react-native-maps
 
-## Environment Details
+## My Environment Details
 * Computer OS: Windows 10
 * Mobile Device OS: Android (only)
 * React Native Version: 0.61.5
 * react-native-cli: 2.0.1
 * Gradle Version: 6.2
-* IDE: Visual Studio Code (Run/Build App through Windows Command Line)
+* IDE: Visual Studio Code (Build/Run App through Windows Command Line)
 
 ## Installation Process
 
