@@ -1,5 +1,5 @@
 # Contains Google Maps API Key
-AndroidManifest.xml
+android/app/src/main/AndroidManifest.xml
 
 # OSX
 #
