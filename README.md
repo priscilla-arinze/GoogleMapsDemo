@@ -154,6 +154,7 @@ export default class App extends Component {
         provider={PROVIDER_GOOGLE} // remove if not using Google Maps
         style={styles.map}
         region={{
+        //you can change latitude & longitude to set your desired location
         latitude: 32.9857619,
         longitude: -96.7500993,
         latitudeDelta: 0.015,
