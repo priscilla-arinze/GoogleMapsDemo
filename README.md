@@ -10,7 +10,7 @@ Google Maps Demo for Android using the React Native module, react-native-maps
 
 ## Installation Process
 
-Based off of [react-native-maps documentation](https://github.com/react-native-community/react-native-maps/blob/master/docs/installation.md)
+Based off of the [react-native-maps documentation](https://github.com/react-native-community/react-native-maps/blob/master/docs/installation.md)
 
 *Make sure Node.js and yarn are installed on your computer. Also make sure that you add node/npm and yarn to your system's environment PATH variable.*
 [Node.js installation](https://nodejs.org/en/download/)
