@@ -132,7 +132,7 @@ Add the following code including your API Key to AndroidManifest.xml (`android/a
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
       <meta-data
-        <!-- Keep this line the same, unless stated otherwise by react-naive-maps documentation -->
+        <!-- Keep this line the same, unless stated otherwise by react-native-maps documentation -->
         android:name="com.google.android.geo.API_KEY"
         android:value="Enter Your Own Google Maps API Key Here"/>
     </application>
