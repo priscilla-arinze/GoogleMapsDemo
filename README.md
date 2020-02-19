@@ -20,7 +20,7 @@ Based off of the [react-native-maps documentation](https://github.com/react-nati
 
 [Node.js installation](https://nodejs.org/en/download/)
 
-[Yarn installation (AFTER installing Node](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+[Yarn installation (AFTER installing Node)](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 
 1. While inside your project directory, install the library from npm:
