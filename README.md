@@ -38,12 +38,16 @@ yarn add react-native-maps -E
 yarn add react-native-webview
 ```
 
-3. Obtain an [API key for the Android Maps SDK](https://developers.google.com/maps/documentation/android-sdk/signup).
+3. Install the latest version of [Gradle](https://gradle.org/install/) on your computer. Locate the `gradle-wrapper.properties` folder in `android/gradle/wrapper` and update the Gradle version number in the distributionURL link.
+
+4. Obtain an [API key for the Android Maps SDK](https://developers.google.com/maps/documentation/android-sdk/signup).
 
 
 ## Android Build Configuration for React Native Versions 0.6 and Higher
 
 Please refer to [react-native-maps documentation](https://github.com/react-native-community/react-native-maps) for React Native Versions below 0.6 and for more assistance in the build configuration
+
+> Note: If you choose to clone this repository, the following build configurations are already set.
 
 1. Within your project directory, define *project-wide* properties (__recommended__) in your __ROOT__ `build.gradle`for the react-native-maps library to recognize (depending on:
 
@@ -80,7 +84,7 @@ dependencies {
 }
 ```
 
-2. Speficy your Google Maps API Key:
+2. Specify your Google Maps API Key:
 
 Add the following code including your API Key to AndroidManifest.xml (`android/app/src/main/AndroidManifest.xml`)
 
