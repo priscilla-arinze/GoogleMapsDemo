@@ -95,51 +95,24 @@ Add the following code including your API Key to AndroidManifest.xml (`android/a
    <!-- You will only need to add this meta-data tag, but make sure it's inside the <application> tags -->
    <meta-data
      android:name="com.google.android.geo.API_KEY"
-     android:value="Your Google maps API Key Here"/>
+     android:value="Your Own Google Maps API Key Here (inside quotes)"/>
 </application>
 ```
 
-> Note: I added my AndroidManifest.xml file to my project's .gitignore file
-> in order to avoid committing my Google Maps API Key to my public Github.
-> repository. Therefore, if you have cloned this repository, remember to
-> create the AndroidManifest.xml file in `android/app/src/main`. Not the most 
-> effective way of hiding my API Key from the public, but it is the easiest
-> for me for the purposes of committing to my Github repository. Here is 
-> my current code inside my AndroidManifest.xml (excluding my API Key):
+> Note: If you clone this repository, you will need to create a file 
+> called, gradle.properties inside the root android folder. This file
+> has been added to my .gitignore to hide my Google Maps API Key
+> Add the following 2 lines to gradle.properities:
+> `android.useAndroidX=true`
+> `android.enableJetifier=true`
+> If you choose to clone this repository AND hide your API key
+> for your own GitHub repository, follow these steps:
+* In android/gradle.properties, add a 3rd line that specifies your API Key: 
+`GOOGLE_MAPS_API_KEY="Your Own Google Maps API Key Here (inside quotes)"`
+* Add android/gradle.properties to .gitignore file in root project folder
+* Variable Name Dependencies: android/gradle.properties --> android/build.gradle --> android/app/src/AndroidManifest.xml
 
-```xml
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.googlemapsapidemo">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <application
-      android:name=".MainApplication"
-      android:label="@string/app_name"
-      android:icon="@mipmap/ic_launcher"
-      android:roundIcon="@mipmap/ic_launcher_round"
-      android:allowBackup="false"
-      android:theme="@style/AppTheme">
-      <activity
-        android:name=".MainActivity"
-        android:label="@string/app_name"
-        android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-        android:windowSoftInputMode="adjustResize">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-      </activity>
-      <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-      <meta-data
-        <!-- Keep this line the same, unless stated otherwise by react-native-maps documentation -->
-        android:name="com.google.android.geo.API_KEY"
-        android:value="Enter Your Own Google Maps API Key Here"/>
-    </application>
-
-</manifest>
-
-```
 
 3. If you are using an Android emulator, make sure it has Google Play Services is installed, [check out this StackOverflow post for more help](https://stackoverflow.com/questions/14536595/how-to-download-google-play-services-in-an-android-emulator).
 
