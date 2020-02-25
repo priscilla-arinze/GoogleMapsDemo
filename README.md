@@ -51,7 +51,7 @@ Please refer to [react-native-maps documentation](https://github.com/react-nativ
 
 > Note: If you choose to clone this repository, the following build configurations are already set.
 
-1. Within your project directory, define *project-wide* properties (__recommended__) in your __ROOT__ `build.gradle`for the react-native-maps library to recognize:
+1. Within your project directory, define *project-wide* properties (__recommended__) in your root `android/build.gradle`for the react-native-maps library to recognize:
 
 or do
 ```
