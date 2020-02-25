@@ -113,7 +113,7 @@ Add the following code including your API Key to AndroidManifest.xml (`android/a
 * In android/gradle.properties, add a 3rd line that specifies your API Key: 
 `GOOGLE_MAPS_API_KEY="Your Own Google Maps API Key Here (inside quotes)"`
 * Add android/gradle.properties to .gitignore file in root project folder
-* Variable Name Dependencies: android/gradle.properties --> android/build.gradle --> android/app/src/AndroidManifest.xml
+* Variable Name Dependencies: android/gradle.properties --> android/app/build.gradle --> android/app/src/AndroidManifest.xml
 
 
 
