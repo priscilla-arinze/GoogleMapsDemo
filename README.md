@@ -101,10 +101,13 @@ Add the following code including your API Key to AndroidManifest.xml (`android/a
 
 > Note: If you clone this repository, you will need to create a file 
 > called, gradle.properties inside the root android folder. This file
-> has been added to my .gitignore to hide my Google Maps API Key
+> has been added to my .gitignore to hide my Google Maps API Key.
 > Add the following 2 lines to gradle.properities:
+
 > `android.useAndroidX=true`
+
 > `android.enableJetifier=true`
+
 > If you choose to clone this repository AND hide your API key
 > for your own GitHub repository, follow these steps:
 * In android/gradle.properties, add a 3rd line that specifies your API Key: 
